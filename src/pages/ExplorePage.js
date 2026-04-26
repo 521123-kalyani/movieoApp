@@ -45,7 +45,7 @@ const ExplorePage = () => {
 
     useEffect(()=>{
     window.addEventListener('scroll',handleScroll)
-  },[])
+  },[fetchData])
   
 
   
