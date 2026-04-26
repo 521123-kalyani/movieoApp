@@ -52,7 +52,7 @@ fetchData()
   
     useEffect(()=>{
     window.addEventListener('scroll',handleScroll)
-  },[])
+  },[fetchData])
   
 
 

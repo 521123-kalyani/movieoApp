@@ -33,7 +33,7 @@ function App() {
   useEffect(()=>{
     fetchTrendingData()
     fetchConfiguration()
-   },[])
+   },[fetchData])
   
   return (
     <main className='pb-14 lg:pb-0'>
